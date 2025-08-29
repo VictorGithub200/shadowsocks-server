@@ -44,3 +44,15 @@ bash /root/ss-rust-install.sh reconfig
 
 ### 卸载并清理
 bash /root/ss-rust-install.sh uninstall  
+
+
+# 给云服务套Warp Ip （可选）
+### 1) 保存脚本
+vim /menu.sh  
+把项目中的脚本内容粘贴进去，保存退出
+
+### 2) 赋权并运行
+
+#### 交互式安装：
+chmod +x /menu.sh 
+bash menu.sh 4
